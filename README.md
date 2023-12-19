@@ -1,6 +1,6 @@
 # Creational Design Patterns
 - [Singleton Pattern](/ressource/skeleton/index.md)
-- Factory Method Pattern
+- [Factory Method Pattern](/ressource/factoryMethod/index.md)
 - Abstract Factory Pattern
 - Builder Pattern
 - Prototype Pattern
