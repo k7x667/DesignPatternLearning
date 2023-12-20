@@ -17,14 +17,14 @@ class Singleton {
     public static function getInstance() {
         if (!isset(self::$instance)) {
             self::$instance = new self();
-        }
+      }
         return self::$instance;
-    }
+  }
 
     // Example method of the singleton class
     public function showMessage() {
         echo "Hello, I am a singleton instance!";
-    }
+  }
 }
 
 // Usage

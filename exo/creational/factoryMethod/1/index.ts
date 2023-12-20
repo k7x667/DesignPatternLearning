@@ -11,7 +11,7 @@ interface Pizza {
     cuirePizza(): string {
       const pizza = this.creerPizza();
       return `Cuisson de la pizza ${pizza.pizzaName}: ${pizza.cuire()}`;
-    }
+  }
 }
   
   // Implémentation de la pizza Marguerita
@@ -20,11 +20,11 @@ interface Pizza {
   
     constructor(nom: string) {
       this.pizzaName = nom;
-    }
+  }
   
     cuire(): string {
       return "Cuisson Marguerita";
-    }
+  }
 }
   
   // Implémentation de la pizza Carbonara
@@ -33,11 +33,11 @@ interface Pizza {
   
     constructor(nom: string) {
       this.pizzaName = nom;
-    }
+  }
   
     cuire(): string {
       return "Cuisson Carbonara";
-    }
+  }
 }
   
   // Factory pour la pizza Marguerita
@@ -47,11 +47,11 @@ interface Pizza {
     constructor(nom: string) {
       super();
       this.nom = nom;
-    }
+  }
   
     creerPizza(): Pizza {
       return new Marguerita(this.nom);
-    }
+  }
 }
   
   // Factory pour la pizza Carbonara
@@ -61,11 +61,11 @@ interface Pizza {
     constructor(nom: string) {
       super();
       this.nom = nom;
-    }
+  }
   
     creerPizza(): Pizza {
       return new Carbonara(this.nom);
-    }
+  }
 }
   
 // Exemple d'utilisation

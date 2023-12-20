@@ -8,6 +8,9 @@
 - [factoryMethodExercise2TypeScript](/exo/creational/factoryMethod/2/index.ts)
 
 - [Abstract Factory Pattern](/ressource/abstractFactory/index.md)
+- [abstractFactoryExercise1TypeScript](/exo/creational/abstractFactory/1/index.ts)
+- [abstractFactoryExercise2TypeScript](/exo/creational/abstractFactory/2/index.ts)
+- [BONUS abstractFactoryExercise2TypeScript](/exo/creational/abstractFactory/2/bonus.ts)
 - Builder Pattern
 - Prototype Pattern
 # Structural Design Patterns

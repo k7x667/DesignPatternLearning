@@ -3,11 +3,11 @@ class AdaptateurFourABois implements IFourElectrique {
   
     constructor(fourABois: FourABois) {
         this.fourABois = fourABois;
-    }
+  }
   
     ouvrir(porte: Number): Promise<Boolean> {
         return this.fourABois.deverouiller();
-    }
+  }
   
     cuire(pizza: IPizza): Promise<Boolean> {
         return Promise.all([
@@ -16,7 +16,7 @@ class AdaptateurFourABois implements IFourElectrique {
             this.fourABois.faireTourner(),
             this.fourABois.chaleur(),
         ]).then((results) => results.every((result) => result === true));
-    }
+  }
 }
   
   // Utilisation de l'adaptateur

@@ -10,15 +10,15 @@ class AdapterApi implements ICodeBarreApi {
             poids: newApiProduct.data.weight,
             nutriscore: newApiProduct.data.quality.nutriscore,
             taille: this.parseSize(newApiProduct.data.size),
-          };
-        });
-    }
+        };
+      });
+  }
   
     private parseSize(sizeString: string): { largeur: number, hauteur: number, profondeur: number } {
       const [largeur, hauteur, profondeur] = sizeString.split('x').map(Number);
       return { largeur, hauteur, profondeur };
-    }
   }
+}
   
   // Utilisation de l'adaptateur
   console.log('Je vais chercher le produit BE49RJ2UFR sur l\'api');
@@ -29,5 +29,5 @@ class AdapterApi implements ICodeBarreApi {
   apiCodeBarre.makeRequest("BE49RJ2UFR")
     .then((product) => {
       console.log(product.prix, product.nutriscore, product.taille.hauteur);
-    });
+  });
   

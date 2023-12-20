@@ -16,14 +16,14 @@ interface ProductA {
 class ProductA1 implements ProductA {
     public function operationA(): string {
         return "Product A1";
-    }
+  }
 }
 
 // Concrete Product A2
 class ProductA2 implements ProductA {
     public function operationA(): string {
         return "Product A2";
-    }
+  }
 }
 
 // Abstract Product B
@@ -35,14 +35,14 @@ interface ProductB {
 class ProductB1 implements ProductB {
     public function operationB(): string {
         return "Product B1";
-    }
+  }
 }
 
 // Concrete Product B2
 class ProductB2 implements ProductB {
     public function operationB(): string {
         return "Product B2";
-    }
+  }
 }
 
 // Abstract Factory
@@ -55,22 +55,22 @@ interface AbstractFactory {
 class Factory1 implements AbstractFactory {
     public function createProductA(): ProductA {
         return new ProductA1();
-    }
+  }
 
     public function createProductB(): ProductB {
         return new ProductB1();
-    }
+  }
 }
 
 // Concrete Factory 2
 class Factory2 implements AbstractFactory {
     public function createProductA(): ProductA {
         return new ProductA2();
-    }
+  }
 
     public function createProductB(): ProductB {
         return new ProductB2();
-    }
+  }
 }
 
 // Client code

@@ -8,7 +8,7 @@ class ShoppingFacade {
       this.productSystem = new ProductSystem();
       this.orderSystem = new OrderSystem();
       this.paymentSystem = new PaymentSystem();
-    }
+  }
   
     public async processOrder(ids: string[]): Promise<void> {
       const products = this.loadProducts(ids);
@@ -16,30 +16,30 @@ class ShoppingFacade {
       const orderValue = this.calculateOrderValue();
       await this.processPayment(orderValue);
       this.saveOrder();
-    }
+  }
   
     private loadProducts(ids: string[]): IProduct[] {
       return ids.map((id) => this.productSystem.loadProduct(id));
-    }
+  }
   
     private setOrderProducts(products: IProduct[]): void {
       this.orderSystem.setProducts(products);
-    }
+  }
   
     private calculateOrderValue(): number {
       return this.orderSystem.calculateOrderValue();
-    }
+  }
   
     private async processPayment(value: number): Promise<void> {
       const response = await this.paymentSystem.processPayment(value);
       if (!response) {
         throw new Error('Payment unsuccessful');
-      }
     }
+  }
   
     private saveOrder(): void {
       this.orderSystem.saveOrder();
-    }
+  }
 }
   
 // Utilisation de la façade

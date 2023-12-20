@@ -11,7 +11,7 @@ Let's consider a scenario where we have an existing `LegacyPrinter` class with a
 class LegacyPrinter {
   printText(message: string): void {
     console.log(`Legacy Printer: ${message}`);
-  }
+}
 }
 
 // Modern Printer interface
@@ -25,11 +25,11 @@ class LegacyPrinterAdapter implements Printer {
 
   constructor(legacyPrinter: LegacyPrinter) {
     this.legacyPrinter = legacyPrinter;
-  }
+}
 
   print(message: string): void {
     this.legacyPrinter.printText(message);
-  }
+}
 }
 
 // Client code using the modern Printer interface

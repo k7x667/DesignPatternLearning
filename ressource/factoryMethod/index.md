@@ -16,14 +16,14 @@ interface Logger {
 class FileLogger implements Logger {
     public function logMessage($message) {
         echo "Logging to file: $message\n";
-    }
+  }
 }
 
 // DatabaseLogger implementation
 class DatabaseLogger implements Logger {
     public function logMessage($message) {
         echo "Logging to database: $message\n";
-    }
+  }
 }
 
 // LoggerFactory interface
@@ -35,14 +35,14 @@ interface LoggerFactory {
 class FileLoggerFactory implements LoggerFactory {
     public function createLogger(): Logger {
         return new FileLogger();
-    }
+  }
 }
 
 // Concrete implementation of LoggerFactory for DatabaseLogger
 class DatabaseLoggerFactory implements LoggerFactory {
     public function createLogger(): Logger {
         return new DatabaseLogger();
-    }
+  }
 }
 
 // Client code

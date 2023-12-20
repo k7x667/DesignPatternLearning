@@ -18,13 +18,13 @@ class CarVerticalService implements ExternalInfoService {
       console.log(`Authentification CarVertical vin: ${vinVehicule}`);
       // Logique d'authentification fictive
       return true;
-    }
+  }
   
     async getInformation(vinVehicule: string): Promise<string> {
       console.log(`Récupération des données CarVertical : ${vinVehicule}`);
       // Logique de récupération de données fictive
       return 'Informations CarVertical';
-    }
+  }
 }
   
   // Implémentation de CamionVertical
@@ -35,13 +35,13 @@ class CamionVerticalService implements ExternalInfoService {
       console.log(`Authentification CamionVertical vin: ${vinVehicule}`);
       // Logique d'authentification fictive
       return true;
-    }
+  }
   
     async getInformation(vinVehicule: string): Promise<string> {
       console.log(`Récupération des données CamionVertical : ${vinVehicule}`);
       // Logique de récupération de données fictive
       return 'Informations CamionVertical';
-    }
+  }
 }
   
   // Implémentation de TracteurVertical
@@ -52,13 +52,13 @@ class TracteurVerticalService implements ExternalInfoService {
       console.log(`Authentification TracteurVertical vin: ${vinVehicule}`);
       // Logique d'authentification fictive
       return true;
-    }
+  }
   
     async getInformation(vinVehicule: string): Promise<string> {
       console.log(`Récupération des données TracteurVertical : ${vinVehicule}`);
       // Logique de récupération de données fictive
       return 'Informations TracteurVertical';
-    }
+  }
 }
   
   // Fonction principale
