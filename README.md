@@ -1,8 +1,12 @@
 # Creational Design Patterns
+
 - [Singleton Pattern](/ressource/skeleton/index.md)
+- [singletonExerciseTypeScript](/exo/creational/singleton/index.ts)
+
 - [Factory Method Pattern](/ressource/factoryMethod/index.md)
 - [factoryMethodExercise1TypeScript](/exo/creational/factoryMethod/1/index.ts)
 - [factoryMethodExercise2TypeScript](/exo/creational/factoryMethod/2/index.ts)
+
 - [Abstract Factory Pattern](/ressource/abstractFactory/index.md)
 - Builder Pattern
 - Prototype Pattern
