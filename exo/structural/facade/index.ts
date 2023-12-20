@@ -40,13 +40,13 @@ class ShoppingFacade {
     private saveOrder(): void {
       this.orderSystem.saveOrder();
     }
-  }
+}
   
-  // Utilisation de la façade
-  const ids = ['324THT54GZG', '324F24TG35R', '23RI23UFJ'];
-  
-  const shoppingFacade = new ShoppingFacade();
-  shoppingFacade.processOrder(ids)
-    .then(() => console.log('Order processing completed successfully'))
-    .catch((error) => console.error(`Error: ${error.message}`));
+// Utilisation de la façade
+const ids = ['324THT54GZG', '324F24TG35R', '23RI23UFJ'];
+
+const shoppingFacade = new ShoppingFacade();
+shoppingFacade.processOrder(ids)
+  .then(() => console.log('Order processing completed successfully'))
+  .catch((error) => console.error(`Error: ${error.message}`));
   
