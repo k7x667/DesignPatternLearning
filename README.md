@@ -17,6 +17,8 @@
 
 4. [Information Additionnelle](#information-additionnelle)
 
+5. [Method SOLID](/SOLID/index.MD)
+
 # Aperçu des Design Patterns
 
 ## Introduction aux Design Patterns
