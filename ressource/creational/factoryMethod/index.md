@@ -1,6 +1,6 @@
 ### Factory Method Pattern
 
-The Factory Method Pattern is a creational design pattern that provides an interface for creating objects in a super class, but allows subclasses to alter the type of objects that will be created. It promotes loose coupling by allowing the client code to depend on the abstract interface rather than concrete classes.
+The Factory Method Pattern is a CREATIONAL design pattern that provides an interface for creating objects in a super class, but allows subclasses to alter the type of objects that will be created. It promotes loose coupling by allowing the client code to depend on the abstract interface rather than concrete classes.
 
 #### Example in PHP:
 

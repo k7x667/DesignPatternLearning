@@ -1,6 +1,6 @@
 ### Abstract Factory Pattern
 
-The **Abstract Factory Pattern** is a creational design pattern that provides an interface for creating families of related or dependent objects without specifying their concrete classes. It defines an abstract class (or interface) for creating an object, but leaves the choice of its type to the subclasses, creating an instance of one or more families of classes.
+The **Abstract Factory Pattern** is a CREATIONAL design pattern that provides an interface for creating families of related or dependent objects without specifying their concrete classes. It defines an abstract class (or interface) for creating an object, but leaves the choice of its type to the subclasses, creating an instance of one or more families of classes.
 
 #### Example in PHP
 
