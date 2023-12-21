@@ -1,21 +1,19 @@
 # Sommaire
 
-1. [Aperçu des Design Patterns](#apercu-des-design-patterns)
+1. Aperçu des Design Patterns
    - [Introduction aux Design Patterns](#introduction-aux-design-patterns)
 
-2. [Design Patterns Créationnels](#design-patterns-creationnels)
+2. Design Patterns Créationnels
    - [Factory Method Pattern](#factory-method-pattern)
    - [Abstract Factory Pattern](#abstract-factory-pattern)
    - [Builder Pattern](#builder-pattern)
    - [Singleton Pattern](#singleton-pattern)
 
-3. [Design Patterns Structuraux](#design-patterns-structuraux)
+3. Design Patterns Structuraux
    - [Adapter Pattern](#adapter-pattern)
    - [Facade Pattern](#facade-pattern)
    - [Decorator Pattern](#decorator-pattern)
    - [Proxy Pattern](#proxy-pattern)
-
-4. [Information Additionnelle](#information-additionnelle)
 
 5. [Method SOLID](/SOLID/index.MD)
 
