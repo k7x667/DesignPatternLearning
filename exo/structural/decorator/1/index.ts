@@ -122,7 +122,9 @@ console.log('Cuisson: ', margueritaPizza.cuire());
 console.log('Prix: ', margueritaPizza.prix());
 
 const carbonaraWithoutMeatPizza: Pizza = new MoinsViandeDecorator(
-    new ExtraFromageDecorator(new CarbonaraPizza())
+    new ExtraFromageDecorator(
+        new CarbonaraPizza()
+    )
 )
 
 console.log('Pizza: ', carbonaraWithoutMeatPizza.pizzaName);
