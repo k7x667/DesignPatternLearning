@@ -6,7 +6,7 @@
 
 - [Abstract Factory Pattern](/ressource/abstractFactory/index.md) | [EXO1TS](/exo/creational/abstractFactory/1/index.ts) | [EXO2TS](/exo/creational/abstractFactory/2/index.ts) | [BONUS](/exo/creational/abstractFactory/2/bonus.ts)
 
-- Builder Pattern
+- Builder Pattern | [EXO1TS](/exo/creational/builder/index.ts)
 - Prototype Pattern
 # Structural Design Patterns
 - Adapter Pattern [EXO1TS](/exo/structural/adapter/1/index.ts) [EXO2TS](/exo/structural/adapter/2/index.ts)
