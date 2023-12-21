@@ -1,27 +1,19 @@
 # Creational Design Patterns
 
-- [Singleton Pattern](/ressource/skeleton/index.md)
-- [singletonExerciseTypeScript](/exo/creational/singleton/index.ts)
+- [Singleton Pattern](/ressource/skeleton/index.md) [EXO](/exo/creational/singleton/index.ts)
 
-- [Factory Method Pattern](/ressource/factoryMethod/index.md)
-- [factoryMethodExercise1TypeScript](/exo/creational/factoryMethod/1/index.ts)
-- [factoryMethodExercise2TypeScript](/exo/creational/factoryMethod/2/index.ts)
+- [Factory Method Pattern](/ressource/factoryMethod/index.md) [EXO1TS](/exo/creational/factoryMethod/1/index.ts) [EXO2TS](/exo/creational/factoryMethod/2/index.ts)
 
-- [Abstract Factory Pattern](/ressource/abstractFactory/index.md)
-- [abstractFactoryExercise1TypeScript](/exo/creational/abstractFactory/1/index.ts)
-- [abstractFactoryExercise2TypeScript](/exo/creational/abstractFactory/2/index.ts)
-- [BONUS abstractFactoryExercise2TypeScript](/exo/creational/abstractFactory/2/bonus.ts)
+- [Abstract Factory Pattern](/ressource/abstractFactory/index.md) [EXO1TS](/exo/creational/abstractFactory/1/index.ts) [EXO2TS](/exo/creational/abstractFactory/2/index.ts) [BONUS](/exo/creational/abstractFactory/2/bonus.ts)
+
 - Builder Pattern
 - Prototype Pattern
 # Structural Design Patterns
-- Adapter Pattern
-- [adapterExercise1TypeScript](/exo/structural/adapter/1/index.ts)
-- [adapterExercise2TypeScript](/exo/structural/adapter/2/index.ts)
+- Adapter Pattern [EXO1TS](/exo/structural/adapter/1/index.ts) [EXO2TS](/exo/structural/adapter/2/index.ts)
 - Bridge Pattern
 - Composite Pattern
 - Decorator Pattern
-- Facade Pattern
-- [facadeExerciseTypeScript](/exo/structural/facade/index.ts)
+- Facade Pattern [EXO](/exo/structural/facade/index.ts)
 - Flyweight Pattern
 - Proxy Pattern
 # Behavioral Design Patterns
