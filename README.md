@@ -1,10 +1,10 @@
 # Creational Design Patterns
 
-- [Singleton Pattern](/ressource/skeleton/index.md) [EXO](/exo/creational/singleton/index.ts)
+- [Singleton Pattern](/ressource/skeleton/index.md) | [EXO](/exo/creational/singleton/index.ts)
 
-- [Factory Method Pattern](/ressource/factoryMethod/index.md) [EXO1TS](/exo/creational/factoryMethod/1/index.ts) [EXO2TS](/exo/creational/factoryMethod/2/index.ts)
+- [Factory Method Pattern](/ressource/factoryMethod/index.md) | [EXO1TS](/exo/creational/factoryMethod/1/index.ts) | [EXO2TS](/exo/creational/factoryMethod/2/index.ts)
 
-- [Abstract Factory Pattern](/ressource/abstractFactory/index.md) [EXO1TS](/exo/creational/abstractFactory/1/index.ts) [EXO2TS](/exo/creational/abstractFactory/2/index.ts) [BONUS](/exo/creational/abstractFactory/2/bonus.ts)
+- [Abstract Factory Pattern](/ressource/abstractFactory/index.md) | [EXO1TS](/exo/creational/abstractFactory/1/index.ts) | [EXO2TS](/exo/creational/abstractFactory/2/index.ts) | [BONUS](/exo/creational/abstractFactory/2/bonus.ts)
 
 - Builder Pattern
 - Prototype Pattern
