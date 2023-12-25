@@ -61,31 +61,31 @@ Le pattern Singleton garantit qu'une classe a une seule instance et fournit un p
 ## Adapter Pattern
 
 - [Adapter Pattern](/ressource/structural/adapter/index.md)
-  - [EXO1TS](/EXO/STRUCTURAL/adapter/1/index.ts)
-  - [EXO2TS](/EXO/STRUCTURAL/adapter/2/index.ts)
+  - [EXO1TS](/exo/structural/adapter/1/index.ts)
+  - [EXO2TS](/exo/structural/adapter/2/index.ts)
 
 Le pattern Adapter permet à l'interface d'une classe existante d'être utilisée comme une autre interface, la rendant compatible avec les attentes du client.
 
 ## Facade Pattern
 
 - [Facade Pattern](/ressource/structural/facade/index.md)
-  - [EXO](/EXO/STRUCTURAL/facade/index.ts)
+  - [EXO](/exo/structural/facade/index.ts)
 
 Le pattern Facade fournit une interface unifiée à un ensemble d'interfaces dans un sous-système, facilitant son utilisation et réduisant les dépendances.
 
 ## Decorator Pattern
 
 - [Decorator Pattern](/ressource/structural/decorator/index.md)
-  - [EXO1TS](/EXO/STRUCTURAL/decorator/1/index.ts)
-  - [EXO2TS](/EXO/STRUCTURAL/decorator/2/index.ts)
+  - [EXO1TS](/exo/structural/decorator/1/index.ts)
+  - [EXO2TS](/exo/structural/decorator/2/index.ts)
 
 Le pattern Decorator attache dynamiquement des responsabilités supplémentaires à un objet, offrant une alternative flexible à la sous-classe pour étendre la fonctionnalité.
 
 ## Proxy Pattern
 
 - [Proxy Pattern](/ressource/structural/proxy/index.md)
-  - [EXO1TS](/EXO/STRUCTURAL/proxy/1/index.ts)
-  - [EXO2TS](/EXO/STRUCTURAL/proxy/2/index.ts)
+  - [EXO1TS](/exo/structural/proxy/1/index.ts)
+  - [EXO2TS](/exo/structural/proxy/2/index.ts)
 
 Le pattern Proxy fournit un substitut ou un espace réservé pour un autre objet afin de contrôler l'accès à celui-ci.
 
